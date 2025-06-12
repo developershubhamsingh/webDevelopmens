@@ -1,0 +1,40 @@
+ body {
+     box-sizing: border-box;
+     font-family: 'Courier New', Courier, monospace;
+     padding: 0;
+     margin: 0;
+ }
+
+ nav {
+     font-size: 18px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     transition: font-size 0.3 ease;
+ gap: 3%;
+ }
+
+ a {
+     color: #d4ce97;
+     text-decoration: none;
+      /* margin-left: 8%; */
+
+ }
+
+ a:hover {
+     cursor: pointer;
+     font-size: 19px;
+ }
+
+ header {
+     background-color: black;
+     color: white;
+     height: 50px;
+ }
+
+ .logo {
+     float: left;
+     text-shadow: 0 0 3px red;
+     font-size: 25px;
+     padding: 10px;
+ }
