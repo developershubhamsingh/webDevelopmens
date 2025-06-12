@@ -1,3 +1,17 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github-devhub:developershubhamsingh/webDevelopmens.git
+git push -u origin main
+
+
+git add .
+git commit -m "your message"
+git push
+
+
+ 
 This Course covers :
 
     HTML            => Raw structure.  
