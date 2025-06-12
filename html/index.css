@@ -3,6 +3,40 @@
      font-family: 'Courier New', Courier, monospace;
      padding: 0;
      margin: 0;
+     background-color: black;
+     color: white;
+ }
+
+ #coupons {
+     box-shadow: 0 0 3px red;
+     border-radius: 3%;
+     height: 350px;
+     width: 32%;
+     background-color: blueviolet;
+     position: absolute;
+     display: none;
+     margin: 12.1% 0 0 35%;
+
+ }
+
+ .toggle {
+     background-color: rgb(240, 224, 224);
+     color: black;
+ }
+
+ #coupons>button {
+     font-size: 18px;
+     height: 23px;
+     border: none;
+     border-radius: 5px;
+     float: right;
+     margin: 4.3px;
+ }
+
+ #coupons>button:hover {
+     cursor: pointer;
+     background-color: blueviolet;
+     box-shadow: 0 0 3px red;
  }
 
  nav {
@@ -10,26 +44,29 @@
      height: 50px;
      display: flex;
      align-items: center;
-     transition: font-size 0.3 ease;
- gap: 3%;
+     gap: 9%;
+     position: absolute;
+     margin-left: 30%;
  }
 
  a {
      color: #d4ce97;
      text-decoration: none;
-      /* margin-left: 8%; */
+
+     /* margin-left: 8%; */
 
  }
 
  a:hover {
      cursor: pointer;
-     font-size: 19px;
+     color: khaki;
  }
 
  header {
      background-color: black;
      color: white;
      height: 50px;
+     display: flex;
  }
 
  .logo {
@@ -37,4 +74,56 @@
      text-shadow: 0 0 3px red;
      font-size: 25px;
      padding: 10px;
+ }
+
+ p {
+     /* text-align: left; */
+     margin-left: 7px;
+ }
+
+ .bulb {
+     font-size: 17px;
+     display: flex;
+     align-items: center;
+     margin-left: 3%;
+ }
+
+ .bulb :hover {
+     cursor: pointer;
+     background-color: yellow;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 30px;
+     letter-spacing: 3.5px;
+     text-shadow: 0 0 3px red;
+     /* text-decoration: underline; */
+ }
+
+ hr {
+     width: 80%;
+     border-bottom-color: red;
+     height: 1px;
+
+ }
+
+ img {
+     border-radius: 7px;
+     height: 250px;
+     width: 57%;
+     margin-right: 10px;
+     margin-left: 21%;
+     margin-top: 1%;
+
+ }
+
+ footer {
+     height: 50px;
+     background-color: black;
+     color: khaki;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }

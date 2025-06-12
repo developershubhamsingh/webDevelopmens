@@ -14,7 +14,7 @@ git push
  
 This Course covers :
 
-    HTML            => Raw structure.  
+    HTML            => Raw structure .  
     CSS             => Look and feel.
     Javascripts     => To give Functionality.
     Bootstraps      => Responsiveness(fit to all screen).
@@ -40,5 +40,8 @@ note:
     if u remove the body tag then also it will work because modern browser recognise it. but there is chances that old browser does not recognise.
     
    for html icon &times; etc.
+
+    // classList is a property of an HTML element that allows you to manipulate the classes associated with that element .//
+    // toggle() it allow to switch between the two class .//
 
 

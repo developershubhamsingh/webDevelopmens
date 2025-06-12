@@ -6,30 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>city page :</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./style.js"></script>
 </head>
 
 <body>
     <header>
         <div class="logo">citypage</div>
+        <div class="bulb" onclick="toggleChange()">💡</div>
         <nav>
-            <a href="">Manali</a>
-            <a href="">Karnataka</a>
-            <a href="">Kolkata</a>
-            <a href="">Contact</a>
+            <a href="#Manali">Manali</a>
+            <a href="#Karnataka">Karnataka</a>
+            <a href="#Kolkata">Kolkata</a>
+            <a href="#Contact">Contact</a>
         </nav>
     </header>
+    <div id="coupons"><button onclick="closecoupons()">&times;</button></div>
     <section id="Manali">
-        <div class=""></div>
-        <p></p>
+        <h1>Manali</h1>
+        <div class=""><img src="./foto/manali.jpg" alt="manali"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quo aliquam eligendi voluptate. Qui, aliquid
+            sint numquam dicta sequi cupiditate amet, delectus velit, atque exercitationem eaque ex porro nisi
+            harum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam illo omnis laudantium quae
+            voluptatum,quidem cum! Quaerat a impedit aliquid quos doloribus! Temporibus voluptatum fugit, cupiditate
+            ipsa autrepellendus aspernatur!Lorem</p>
     </section>
+    <hr>
     <section id="Karnataka">
-        <div class=""></div>
-        <p></p>
+        <h1>Karnataka</h1>
+        <div class=""><img src="./foto/karnataka.jpg" alt="karnataka"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quo aliquam eligendi voluptate. Qui, aliquid
+            sint numquam dicta sequi cupiditate amet, delectus velit, atque exercitationem eaque ex porro nisi
+            harum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam illo omnis laudantium quae voluptatum,
+            quidem cum! Quaerat a impedit aliquid quos doloribus! Temporibus voluptatum fugit, cupiditate ipsa aut
+            repellendus aspernatur!Lorem</p>
     </section>
+    <hr>
     <section id="Kolkata">
-        <div class=""></div>
-        <p></p>
+        <h1>Kolkata</h1>
+        <div class=""><img src="./foto/kolkata.jpg" alt="kolkata"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quo aliquam eligendi voluptate. Qui, aliquid
+            sint numquam dicta sequi cupiditate amet, delectus velit, atque exercitationem eaque ex porro nisi
+            harum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam illo omnis laudantium quae voluptatum,
+            quidem cum! Quaerat a impedit aliquid quos doloribus! Temporibus voluptatum fugit, cupiditate ipsa aut
+            repellendus aspernatur!Lorem</p>
     </section>
+    <hr>
+    <footer>
+        <p>&copy; 2023 City Page. All rights reserved.</p>
+    </footer>
 </body>
+<script>
+    function toggleChange() {
+        let body = document.body;
+        body.classList.toggle("toggle");
+    }
+    window.onload=showcoupons()
+</script>
 
 </html>
